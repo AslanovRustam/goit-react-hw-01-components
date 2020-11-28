@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom';
 import user from './user.json';
 
 function Profile(props) {
+  const { src, alt, name, tag, location, followers, views, likes } = props;
   return (
        <div class="profile">
   <div class="description">
